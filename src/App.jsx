@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Search from './components/Search'
 import Loading from './components/Loading';
-import MovieCard from './components/movieCard';
+import MovieCard from './components/MovieCard';
 import { useDebounce } from "react-use"
 import { getTrandingMovies, updateSearchCount } from './appwrite';
 
